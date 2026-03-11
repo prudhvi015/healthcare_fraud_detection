@@ -1,0 +1,38 @@
+# ── Credentials & Secrets (NEVER commit these) ──
+.env
+*.env
+credentials.json
+*.key
+*.pem
+secrets.yaml
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data Files (too large for GitHub) ──
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.zip
+*.gz
+
+# ── macOS ──
+.DS_Store
+Thumbs.db
+
+# ── VS Code ──
+.vscode/
+
+# ── Logs ──
+*.log
+logs/
