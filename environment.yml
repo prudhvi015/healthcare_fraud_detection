@@ -1,0 +1,25 @@
+name: fraud-detection
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - xgboost
+  - shap
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyterlab
+  - pyarrow
+  - sqlalchemy
+  - boto3
+  - python-dotenv
+  - fastparquet
+  - pip
+  - pip:
+    - snowflake-connector-python
+    - snowflake-sqlalchemy
+    - streamlit
